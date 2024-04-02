@@ -1,17 +1,12 @@
-.overlay, #yt_player {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+.video-wrap {
+  position: relative;
 }
- 
-.overlay{
-    z-index: -1;
-}
- 
-#yt_player{
-    z-index: -2;
+p {
+  font-family: serif;          
+  color: #fff;
+  font-size: 400%;
+  position: absolute;
+  left: 30%;
+  top: 200px;
+  z-index: 1;
 }
